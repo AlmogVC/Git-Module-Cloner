@@ -25,7 +25,5 @@ for ($nLineIndex = 0; $nLineIndex  + 3 < scalar(@arrFileLine); $nLineIndex += 3)
 		$gitUrl = $1;
 	}
 	
-	
 	system("git clone $gitUrl $gitName");
 }
-  
